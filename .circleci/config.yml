@@ -16,7 +16,7 @@ jobs:
       - image: postgres:13-alpine
         environment:
           - POSTGRES_PASSWORD=mysecretpassword
-      - image: mcr.microsoft.com/mssql/server:2019-latest
+      - image: mcr.microsoft.com/mssql/server:2022-latest
         environment:
           - ACCEPT_EULA=Y
           - SA_PASSWORD=qwe123QWE
