@@ -13,7 +13,7 @@ jobs:
         environment:
           - MYSQL_DATABASE=circle_test
           - MYSQL_ROOT_PASSWORD=root
-      - image: postgres:13-alpine
+      - image: postgres:16-alpine
         environment:
           - POSTGRES_PASSWORD=mysecretpassword
       - image: mcr.microsoft.com/mssql/server:2019-latest
